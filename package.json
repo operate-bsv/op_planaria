@@ -17,6 +17,7 @@
   "devDependencies": {
     "shipit-cli": "^5.1.0",
     "shipit-deploy": "^5.1.0",
+    "shipit-shared": "^4.4.2",
     "shipit-yarn": "^0.2.0"
   }
 }
