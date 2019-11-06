@@ -1,5 +1,14 @@
+# System files
 .DS_Store
+
+# Dependencies
 /node_modules
+
+# Bitbus
 /.env
 /bus
 tape.txt
+
+# Deployment
+shipitfile.js
+ecosystem.config.js
