@@ -1,0 +1,13 @@
+{
+  "name": "op_planaria",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/operate-bsv/op_planaria",
+  "author": "libitx",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.20.1",
+    "neonplanaria": "^0.0.39",
+    "pg": "^7.12.1"
+  }
+}
