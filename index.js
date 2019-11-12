@@ -21,10 +21,10 @@ planaria.start({
 
   async onstart(e) {
     if (e.tape.self.start === null) {
-      console.log(`OpPlanaria: Starting from ${ e.head }`)
+      console.log('Operate:', `Indexing from ${ e.head }`)
       ops.deleteAll()
     } else {
-      console.log(`OpPlanaria: Starting from ${ e.tape.self.end }`)
+      console.log('Operate:', `Indexing from ${ e.tape.self.end }`)
       ops.deleteFrom(e.tape.self.end)
     }
   },
