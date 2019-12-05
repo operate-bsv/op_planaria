@@ -1,8 +1,8 @@
 {
   "name": "op_planaria",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
-  "repository": "https://github.com/operate-bsv/op_planaria",
+  "repository": "github:operate-bsv/op_planaria",
   "author": "libitx",
   "license": "MIT",
   "scripts": {
@@ -10,9 +10,9 @@
     "deploy": "shipit production deploy"
   },
   "dependencies": {
-    "knex": "^0.20.1",
-    "neonplanaria": "^0.0.39",
-    "pg": "^7.12.1"
+    "knex": "^0.20.3",
+    "neonplanaria": "^0.0.42",
+    "pg": "^7.14.0"
   },
   "devDependencies": {
     "shipit-cli": "^5.1.0",
