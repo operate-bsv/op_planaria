@@ -10,9 +10,9 @@
     "deploy": "shipit production deploy"
   },
   "dependencies": {
-    "knex": "^0.20.3",
-    "neonplanaria": "^0.0.42",
-    "pg": "^7.14.0"
+    "knex": "^0.20.9",
+    "neonplanaria": "^0.0.45",
+    "pg": "^7.18.1"
   },
   "devDependencies": {
     "shipit-cli": "^5.1.0",
